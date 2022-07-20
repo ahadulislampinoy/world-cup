@@ -1,0 +1,250 @@
+/* following breakpoints which i got from one of modaretor of batch6 */
+/* extra large, TV  */
+@media screen and (min-width: 1201px) {
+  /* nothing to change everything alright */
+  .container {
+    padding: 50px 70px;
+  }
+  .banner-content {
+    padding: 20px 65px 0;
+  }
+}
+/* large, DEKSTOP */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container {
+    padding: 40px 50px;
+  }
+  .banner-content {
+    padding: 20px 50px 0;
+  }
+  .banner-info h1 {
+    font-size: 47px;
+    margin-bottom: 10px;
+  }
+}
+/* small, LAPTOP */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 35px 45px 25px;
+  }
+  .banner-content {
+    padding: 30px 30px 0;
+  }
+  .banner-info h1 {
+    font-size: 43px;
+    margin-bottom: 5px;
+  }
+  .banner-content p {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner-info a {
+    width: 38%;
+    padding: 10px 0;
+    margin-top: 15px;
+  }
+  .blog-single-info {
+    padding: 5px;
+  }
+  .blog-single-info h3,
+  .blog-single-info button {
+    font-size: 16px;
+  }
+  .blog-single-info-icon p {
+    margin-right: 18px;
+  }
+  .side-menu-content {
+    padding: 20px;
+    width: 220px;
+  }
+  .blog-single-info-icon p {
+    margin-right: 14px;
+  }
+  .footer-content {
+    margin-top: 50px;
+  }
+}
+/* TABLETS */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding: 30px 35px;
+  }
+  .banner-content p {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner-info a {
+    width: 60%;
+    padding: 7px 0;
+    margin-top: 5px;
+  }
+  .banner-info h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .banner-content {
+    padding: 10px 30px 0;
+  }
+  .main-content {
+    flex-direction: column;
+  }
+  #blog {
+    margin-left: 0;
+  }
+  .side-menu-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0 0 30px;
+  }
+  .side-menu-content div {
+    width: 32%;
+  }
+  .side-menu-content a {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-bottom: 0;
+  }
+  .side-menu-special a {
+    background-color: #e4c518;
+  }
+  #blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .view-all-button {
+    display: block;
+    background-color: #e4c518;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 0;
+    border-radius: 5px;
+    width: 20%;
+    border: none;
+    margin: 0 auto;
+  }
+  .footer-content {
+    margin-top: 50px;
+  }
+}
+/* mobile phones */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px 30px;
+  }
+  .banner-content {
+    flex-direction: column;
+    padding: 30px 25px 0;
+    text-align: center;
+  }
+  .banner-half-width {
+    width: 100%;
+  }
+  .banner-info {
+    align-items: center;
+  }
+  .banner-info h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .banner-content p {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner-content a {
+    width: 55%;
+    margin-bottom: 15px;
+    padding: 10px 0;
+  }
+  .main-content {
+    flex-direction: column;
+  }
+  #blog {
+    margin-left: 0;
+  }
+  .side-menu-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 0 30px;
+  }
+  .side-menu-content div {
+    width: 60%;
+  }
+  .side-menu-content div:nth-child(2) {
+    margin: 15px 0;
+  }
+  .side-menu-content a {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-bottom: 0;
+  }
+  .side-menu-special a {
+    background-color: #e4c518;
+  }
+  #blog {
+    grid-template-columns: 1fr;
+  }
+}
+/* extra small */
+@media screen and (max-width: 319px) {
+  .container {
+    padding: 10px 15px;
+  }
+  .banner-content {
+    padding: 30px 20px 0;
+  }
+  .banner-content a {
+    width: 75%;
+  }
+  .side-menu-content div {
+    width: 75%;
+  }
+}
+
+/* special breakpoints*/
+@media screen and (min-width: 880px) and (max-width: 1024px) {
+  .banner-info h1 {
+    font-size: 47px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 940px) {
+  .side-menu-content {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .banner-info h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .banner-info a {
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+}
+@media screen and (min-width: 711px) and (max-width: 768px) {
+  .banner-info h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 530px) {
+  .container {
+    padding: 20px 20px;
+  }
+}
