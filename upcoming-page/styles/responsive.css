@@ -1,7 +1,6 @@
 /* following breakpoints which i got from one of modaretor of batch6 */
 /* extra large, TV  */
 @media screen and (min-width: 1201px) {
-  /* nothing to change everything alright */
   .container {
     padding: 35px 70px;
   }
@@ -217,6 +216,11 @@
 }
 
 /* special breakpoints*/
+@media screen and (min-width: 1350px) {
+  #blog {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 880px) and (max-width: 1024px) {
   .banner-info h1 {
     font-size: 47px;
